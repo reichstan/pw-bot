@@ -1,5 +1,5 @@
-# Discord
-DISCORD_TEST = "mfa.dv_thisIsAFakeToken123456789"
+# GitHub's official test token (always triggers)
+GITHUB_TEST = "ghp_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 
-# AWS (will trigger even in private repos)
-AWS_TEST = "AKIAXXXXXXXXXXXXXXXX"
+# Discord test pattern
+DISCORD_TEST = "mfa.dv_thisIsAFakeToken_123456789"  # Correct format
